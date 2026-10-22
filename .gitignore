@@ -1,0 +1,48 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+XRM_BS.iml
+uploads/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### XRM_BS_UI ###
+XRM_BS_UI/node_modules/
+XRM_BS_UI/dist/
+XRM_BS_UI/.env.local
+XRM_BS_UI/.env.*.local
+
+### Log ###
+*.log
+logs/
+
+### Secret config (keep local; commit only the masked .example) ###
+src/main/resources/application.properties

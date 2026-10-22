@@ -1,0 +1,40 @@
+spring.application.name=XRM_BS
+spring.datasource.url=jdbc:mysql://localhost:3306/xrm_bs?useSSL=false&serverTimezone=UTC
+spring.datasource.username=root
+spring.datasource.password=<REPLACE:SPRING_DATASOURCE_PASSWORD>
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+# JPA
+#spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.properties.hibernate.use_sql_comments=true
+spring.jpa.properties.hibernate.hbm2ddl.auto=update
+# application.properties
+spring.jpa.properties.hibernate.types.converter.auto_apply=true
+
+# JWT Configuration
+jwt.secret=<REPLACE:JWT_SECRET>
+jwt.expiration=86400
+
+spring.data.redis.host=localhost
+spring.data.redis.port=6379
+spring.data.redis.password=<REPLACE:SPRING_DATA_REDIS_PASSWORD>
+
+
+upload.path=./uploads/images/
+upload.url-prefix=/images/
+
+spring.mail.host=smtp.qq.com
+spring.mail.port=587
+spring.mail.username=${MAIL_USERNAME:your_qq_email@qq.com}
+spring.mail.password=<REPLACE:SPRING_MAIL_PASSWORD>
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+# ???? 5 ?
+spring.mail.properties.mail.smtp.connectiontimeout=5000
+# ???? 5 ?
+spring.mail.properties.mail.smtp.timeout=5000
+# ???
+spring.mail.properties.mail.smtp.writetimeout=5000

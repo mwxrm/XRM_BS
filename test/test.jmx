@@ -52,7 +52,7 @@
           <collectionProp name="HeaderManager.headers">
             <elementProp name="" elementType="Header">
               <stringProp name="Header.name">Authorization</stringProp>
-              <stringProp name="Header.value">Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOjUsInN1YiI6IlRIWTUiLCJpYXQiOjE3Nzg1NjQ2OTcsImV4cCI6MTc3ODY1MTA5N30.9re2lwYBBn_SZDYDghej_a7DCI5fH2w9F82qk7YgHaBACYY2pcq4EcBFI4irtr1j0wuS3zv4Dg05rtiUIYHfzg</stringProp>
+              <stringProp name="Header.value">Bearer <REPLACE_WITH_VALID_TEST_JWT></stringProp>
             </elementProp>
           </collectionProp>
         </HeaderManager>
@@ -214,7 +214,7 @@
           <collectionProp name="HeaderManager.headers">
             <elementProp name="" elementType="Header">
               <stringProp name="Header.name">Authorization</stringProp>
-              <stringProp name="Header.value">Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOjUsInN1YiI6IlRIWTUiLCJpYXQiOjE3Nzg1NjQ2OTcsImV4cCI6MTc3ODY1MTA5N30.9re2lwYBBn_SZDYDghej_a7DCI5fH2w9F82qk7YgHaBACYY2pcq4EcBFI4irtr1j0wuS3zv4Dg05rtiUIYHfzg</stringProp>
+              <stringProp name="Header.value">Bearer <REPLACE_WITH_VALID_TEST_JWT></stringProp>
             </elementProp>
           </collectionProp>
         </HeaderManager>
@@ -413,7 +413,7 @@
           <collectionProp name="HeaderManager.headers">
             <elementProp name="" elementType="Header">
               <stringProp name="Header.name">Authorization</stringProp>
-              <stringProp name="Header.value">Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOjUsInN1YiI6IlRIWTUiLCJpYXQiOjE3Nzg1NjQ2OTcsImV4cCI6MTc3ODY1MTA5N30.9re2lwYBBn_SZDYDghej_a7DCI5fH2w9F82qk7YgHaBACYY2pcq4EcBFI4irtr1j0wuS3zv4Dg05rtiUIYHfzg</stringProp>
+              <stringProp name="Header.value">Bearer <REPLACE_WITH_VALID_TEST_JWT></stringProp>
             </elementProp>
           </collectionProp>
         </HeaderManager>
